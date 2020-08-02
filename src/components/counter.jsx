@@ -8,7 +8,7 @@ class Counter extends Component {
   handleIncrement = () => {
     this.setState({ value: this.state.value + 1 });
   };
-  handleDecrement = () => {
+  handleDeletet = () => {
     this.setState({ value: this.state.value - 1 });
   };
   render() {
@@ -22,7 +22,7 @@ class Counter extends Component {
           Increment
         </button>
         <button
-          onClick={this.handleDecrement}
+          onClick={this.handleDelete}
           className="btn btn-danger btn-sm m-2"
         >
           Delete
