@@ -23,7 +23,7 @@ class counters extends Component {
             key={counter.id}
             onDelete={this.handleDelete}
             value={counter.value}
-            id={counter.id}
+            id={counter.id} // this is important to update the state
           />
         ))}
       </div>
